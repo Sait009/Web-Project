@@ -4,20 +4,31 @@
     box-sizing: border-box;
 }
 
-nav {
+.header {
+    background-color: rgb(58, 130, 175);
     width: 100%;
-    height: 70px;
-    background: linear-gradient(125deg, #e61b36, #9c1032);
+    height: 60px;
 }
 
-.nav-container {
-    max-width: 760px;
-    height: 100%;
-    background-color: yellow;
-    margin: 0 auto;
+.Left {
+    display: flex;
+    border: 1px solid red;
+    width: auto;
+
 }
 
-.logo-nav {
-    width: 65px;
-    object-fit: contain;
+.Left p {
+    padding-left: 1rem;
+    color: #fff;
+}
+
+.right {
+    display: flex;
+    border: 1px solid red;
+    width: auto;
+}
+
+.right a {
+    text-decoration: none;
+    color: #fff;
 }
