@@ -43,12 +43,19 @@ span {
     font-size: 15px;
 }
 
+section {
+    display: flex;
+    border: 1px solid red;
+    width: auto;
+    height: 95px;
+    align-items: center;
+}
+
 .header-main {
     display: flex;
     background-color: #fff;
     border: 1px solid red;
-    width: auto;
-    height: 95px;
+    width: 500px;
     align-items: center;
 }
 
@@ -62,5 +69,6 @@ span {
     color: #7b5aa6;
     margin-right: 15px;
     font-size: 15px;
-    cursor: pointer;
+    border: 1px solid red;
+    display: inline-block;
 }
